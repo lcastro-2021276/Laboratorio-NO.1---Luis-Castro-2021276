@@ -5,6 +5,16 @@ Este proyecto corresponde al **avance parcial (35%)** del Sistema Bancario, desa
 una **API REST en ASP.NET Core**, cuyo objetivo es sentar las bases del backend para la gestión
 de usuarios, cuentas y transacciones bancarias.
 
+En esta etapa se implementa una arquitectura por capas (Clean Architecture) que permite una adecuada separación de responsabilidades entre:
+
+API (exposición de servicios)
+
+Application (lógica del negocio)
+
+Domain (entidades y reglas principales)
+
+Persistence (acceso a datos y configuración relacional)
+
 La aplicación implementa la **estructura inicial del sistema**, autenticación segura mediante
 **JWT** y endpoints funcionales básicos, los cuales serán ampliados en la entrega final.
 
