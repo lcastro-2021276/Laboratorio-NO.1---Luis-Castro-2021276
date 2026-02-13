@@ -15,9 +15,6 @@ Domain (entidades y reglas principales)
 
 Persistence (acceso a datos y configuración relacional)
 
-La aplicación implementa la **estructura inicial del sistema**, autenticación segura mediante
-**JWT** y endpoints funcionales básicos, los cuales serán ampliados en la entrega final.
-
 ---
 
 ## Tecnologías utilizadas
