@@ -150,3 +150,71 @@ npm install winston
 ## ⚙️ Variables de Entorno
  
 Crear un archivo `.env` en cada servicio con las variables necesarias (DB connection strings, JWT secret, credenciales de correo, etc.). **Nunca subir el `.env` al repositorio.**
+
+**Axios** es una **librería de JavaScript** que se usa para **hacer peticiones HTTP** (comunicarse con servidores o APIs).
+
+👉 En pocas palabras: sirve para **enviar y recibir datos** desde una app web.
+
+---
+
+## 📦 ¿Qué es exactamente Axios?
+
+Es un cliente HTTP que funciona en:
+
+* 🌐 Navegador
+* 🖥️ Node.js
+
+Y te permite hacer cosas como:
+
+* Obtener datos (GET)
+* Enviar datos (POST)
+* Actualizar (PUT)
+* Eliminar (DELETE)
+
+---
+
+## 🧩 Ejemplo básico
+
+### 🔹 Obtener datos de una API
+
+```javascript
+import axios from "axios";
+
+axios.get("https://api.ejemplo.com/usuarios")
+  .then(respuesta => {
+    console.log(respuesta.data);
+  })
+  .catch(error => {
+    console.error(error);
+  });
+```
+
+---
+
+## ⚙️ ¿Por qué usar Axios?
+
+* ✅ Más fácil que usar `fetch`
+* ✅ Maneja errores mejor
+* ✅ Convierte JSON automáticamente
+* ✅ Permite configurar headers fácilmente
+
+---
+
+## 🔄 Comparación rápida
+
+| Axios                   | fetch (nativo)    |
+| ----------------------- | ----------------- |
+| Más sencillo            | Más básico        |
+| Manejo de errores mejor | Más manual        |
+| Automático JSON         | Hay que convertir |
+
+---
+
+## 🧠 En resumen
+
+Axios es una herramienta que te permite **conectar tu aplicación (por ejemplo en React) con un backend o API de forma sencilla**.
+
+---
+
+Si quieres, te enseño cómo usar Axios dentro de tu proyecto de React paso a paso 🔥
+
